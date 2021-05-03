@@ -11,7 +11,6 @@ Matrix:: Matrix(int size1, int size2) : size1(size1), size2(size1){
 
 	// Data input
 	for (int i = 0; i < size1; ++i) {
-		std::cout << "Add data" << std::endl;
 		for (int j = 0; j < size2; ++j) {
 			std::cin >> matrix[i][j];
 		}
@@ -52,7 +51,6 @@ void Matrix::showMatrix()
 
 void Matrix::updateMatrix()
 {
-	std::cout << "Add new data: " << std::endl;
 	for (int i = 0; i < size1; ++i) {
 		for (int j = 0; j < size2; ++j) {
 			std::cin >> matrix[i][j];
